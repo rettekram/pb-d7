@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Testimonial feature.
+ */
+
+include_once 'pb_testimonial.features.inc';

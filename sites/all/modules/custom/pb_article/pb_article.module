@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Article feature.
+ */
+
+include_once 'pb_article.features.inc';

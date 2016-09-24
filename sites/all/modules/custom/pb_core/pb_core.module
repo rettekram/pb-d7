@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Core feature.
+ */
+
+include_once 'pb_core.features.inc';
