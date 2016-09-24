@@ -15,7 +15,7 @@ function pb_core_wysiwyg_default_profiles() {
     'format' => 'filtered_html',
     'editor' => 'ckeditor',
     'settings' => array(
-      'default' => 1,
+      'default' => 0,
       'user_choose' => 0,
       'show_toggle' => 1,
       'theme' => 'advanced',
@@ -52,7 +52,7 @@ function pb_core_wysiwyg_default_profiles() {
     'format' => 'full_html',
     'editor' => 'ckeditor',
     'settings' => array(
-      'default' => 1,
+      'default' => 0,
       'user_choose' => 0,
       'show_toggle' => 1,
       'theme' => 'advanced',
