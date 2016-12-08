@@ -53,7 +53,7 @@ function pb_home_default_page_manager_pages() {
     ),
   );
   $display->cache = array();
-  $display->title = 'Yoga by Pili';
+  $display->title = '';
   $display->uuid = '5ddf86a2-da48-45fd-a4b0-591a45120e66';
   $display->storage_type = 'page_manager';
   $display->storage_id = 'page_home__panel';
@@ -135,7 +135,7 @@ function pb_home_default_page_manager_pages() {
   $pane->uuid = 'd527ed78-65c6-4f07-97a7-83cbe1d1d7e9';
   $display->content['new-d527ed78-65c6-4f07-97a7-83cbe1d1d7e9'] = $pane;
   $display->panels['middle'][3] = 'new-d527ed78-65c6-4f07-97a7-83cbe1d1d7e9';
-  $display->hide_title = PANELS_TITLE_FIXED;
+  $display->hide_title = PANELS_TITLE_NONE;
   $display->title_pane = '0';
   $handler->conf['display'] = $display;
   $page->default_handlers[$handler->name] = $handler;
