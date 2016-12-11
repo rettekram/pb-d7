@@ -22,3 +22,27 @@ function pb_home_ctools_plugin_api($module = NULL, $api = NULL) {
 function pb_home_views_api($module = NULL, $api = NULL) {
   return array("api" => "3.0");
 }
+
+/**
+ * Implements hook_image_default_styles().
+ */
+function pb_home_image_default_styles() {
+  $styles = array();
+
+  // Exported image style: banner.
+  $styles['banner'] = array(
+    'label' => 'Banner',
+    'effects' => array(
+      1 => array(
+        'name' => 'image_scale_and_crop',
+        'data' => array(
+          'width' => 1020,
+          'height' => 414,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
+  return $styles;
+}
