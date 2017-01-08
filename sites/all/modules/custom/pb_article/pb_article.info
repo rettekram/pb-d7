@@ -14,6 +14,7 @@ features[field_instance][] = node-article-field_image
 features[field_instance][] = node-article-field_tags
 features[node][] = article
 features[variable][] = field_bundle_settings_node__article
+features[variable][] = pathauto_node_article_pattern
 features[views_view][] = blog
 features_exclude[dependencies][ctools] = ctools
 features_exclude[dependencies][features] = features

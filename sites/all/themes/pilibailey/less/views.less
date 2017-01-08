@@ -1,4 +1,6 @@
-// Home page contnet.
+/**
+ *   Home
+ */
 #home {
 	// Prmoted basic page.
 	.pane-promoted-content-panel-pane-1 {
@@ -20,7 +22,7 @@
 		.views-field-field-photo {
 			img {
 				padding: @thumbnail-padding;
-  				margin-bottom: @line-height-computed;
+        margin-bottom: @line-height-computed;
 				line-height: @line-height-base;
 				background-color: @thumbnail-bg;
 				border: 1px solid @thumbnail-border;
@@ -32,7 +34,36 @@
 	.pane-promoted-content-panel-pane-4 {
 		p {
 			font-size: 21px;
-    		font-weight: 200;
+      font-weight: 200;
 		}
 	}
 }
+
+
+/**
+ *   Blog
+ */
+.view-blog {
+  .views-row {
+    border-bottom: solid 1px #eee;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+  }
+  .views-field-created {
+    font-size: 1.2em;
+  }
+  .views-field-title {
+    h2 {
+      margin-top: 0px;
+    } 
+  }
+  .views-field-field-image {
+  }
+  .views-field-body {
+    font-size: 1.2em;
+    padding: 10px 0;
+  }
+  .views-field-view-node {
+  }
+}
+
