@@ -88,6 +88,5 @@
 </div>
 
 <footer class="footer <?php print $container_class; ?>">
-	<?php print render($page['footer']); ?>
-	<p>&copy; <?php echo date("Y"); ?> Pili Bailey. All rights reserved.</p>
+	&copy; <?php echo date("Y"); ?> Pili Bailey. All rights reserved.
 </footer>

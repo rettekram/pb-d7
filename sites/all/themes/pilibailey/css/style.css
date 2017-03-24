@@ -7562,7 +7562,7 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   color: #fff;
   border-width: 0px;
   margin-top: 0px;
-  padding-top: 10px;
+  padding-top: 0px;
 }
 .well {
   background-color: #fff;
@@ -7581,7 +7581,56 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   padding-right: 30px;
 }
 /**
- *   Home
+ *   HTML tags
+ */
+h1 {
+  font-size: 3em;
+}
+p {
+  font-size: 1.2em;
+}
+#block-system-main h2,
+.region-sidebar-first h2,
+.region-sidebar-second h2 {
+  font-size: 2.2em;
+}
+#block-system-main h3,
+.region-sidebar-first h3,
+.region-sidebar-second h3 {
+  font-size: 2em;
+}
+#block-system-main h4,
+.region-sidebar-first h4,
+.region-sidebar-second h4 {
+  font-size: 1.7em;
+}
+#block-system-main h5,
+.region-sidebar-first h5,
+.region-sidebar-second h5 {
+  font-size: 1.5em;
+}
+#block-system-main h6,
+.region-sidebar-first h6,
+.region-sidebar-second h6,
+#block-system-main li,
+.region-sidebar-first li,
+.region-sidebar-second li,
+#block-system-main td,
+.region-sidebar-first td,
+.region-sidebar-second td {
+  font-size: 1.2em;
+}
+/**
+ *   Content types
+ */
+.webform-client-form {
+  margin-top: 20px;
+}
+.webform-client-form .form-text {
+  width: 75%;
+}
+/**
+ *   Home views
  */
 #home .pane-promoted-content-panel-pane-1 h1 {
   font-size: 63px;
@@ -7600,12 +7649,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   border: 1px solid #dddddd;
   border-radius: 4px;
 }
-#home .pane-promoted-content-panel-pane-4 p {
-  font-size: 21px;
-  font-weight: 200;
-}
 /**
- *   Blog
+ *   Blog views
  */
 .view-blog .views-row {
   border-bottom: solid 1px #eee;
@@ -7619,6 +7664,5 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
   margin-top: 0px;
 }
 .view-blog .views-field-body {
-  font-size: 1.2em;
   padding: 10px 0;
 }
