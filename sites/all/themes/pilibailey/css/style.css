@@ -7611,6 +7611,22 @@ p {
   width: 75%;
 }
 /**
+ *   Panel panes
+ */
+#block-system-main .pane-node-terms {
+  border-top: 1px solid #ccc;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+#block-system-main .pane-node-terms .pane-title {
+  font-weight: bold;
+  float: left;
+  padding-right: 4px;
+}
+#block-system-main .pane-node-terms .pane-content {
+  float: left;
+}
+/**
  *   Home views
  */
 #home .pane-promoted-content-panel-pane-1 h1 {

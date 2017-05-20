@@ -4,6 +4,7 @@ core = 7.x
 package = Features
 version = 7.x-1.0
 dependencies[] = pb_core
+dependencies[] = text
 dependencies[] = views
 dependencies[] = views_content
 features[ctools][] = strongarm:strongarm:1
