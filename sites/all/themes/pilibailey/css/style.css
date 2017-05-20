@@ -7523,27 +7523,8 @@ body.navbar-tray-open.navbar-vertical.navbar-fixed {
 #navbar-administration.navbar-oriented .navbar-tray-vertical {
   width: 24rem;
 }
-#wrapper {
-  position: relative;
-  z-index: 100;
-}
-#bg {
-  position: fixed;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-  z-index: 1;
-}
-#bg img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  min-width: 50%;
-  min-height: 50%;
+body {
+  background-image: url("../images/wild_flowers.png");
 }
 .region-navigation {
   float: right;
@@ -7652,17 +7633,21 @@ p {
 /**
  *   Blog views
  */
-.view-blog .views-row {
+.view-blog .views-row,
+.view-taxonomy-term .views-row {
   border-bottom: solid 1px #eee;
   margin-bottom: 30px;
   padding-bottom: 20px;
 }
-.view-blog .views-field-created {
+.view-blog .views-field-created,
+.view-taxonomy-term .views-field-created {
   font-size: 1.2em;
 }
-.view-blog .views-field-title h2 {
+.view-blog .views-field-title h2,
+.view-taxonomy-term .views-field-title h2 {
   margin-top: 0px;
 }
-.view-blog .views-field-body {
+.view-blog .views-field-body,
+.view-taxonomy-term .views-field-body {
   padding: 10px 0;
 }

@@ -77,8 +77,5 @@
     <?php print $page; ?>
     <?php print $page_bottom; ?>
   </div>
-  <div id="bg">
-    <?php print '<img src="'.base_path().'sites/all/themes/pilibailey/images/bg.jpg">'; ?>
-  </div>
 </body>
 </html>
